@@ -41,8 +41,13 @@ fixtures = [
     {
         "doctype": "Property Setter",
         "filters": [["doc_type", "=", "Issue"]],
+    },
+    {
+        "doctype": "Client Script",
+        "filters": [["module", "=", "Sil V2"]],
     }
 ]
+
 
 
 
